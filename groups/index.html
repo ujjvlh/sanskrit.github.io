@@ -36,9 +36,9 @@
     
     let baseURL = "https:\/\/sanskrit.github.io\/";
     let basePath = "/" + baseURL.split("/").slice(3).join("/");
-    let siteParams = JSON.parse("{\u0022contactlink\u0022:\u0022https:\/\/github.com\/sanskrit\/sanskrit.github.io\/issues\/new\u0022,\u0022disqusshortcode\u0022:\u0022sanskrit-projects-site\u0022,\u0022env\u0022:\u0022production\u0022,\u0022githubeditmepathbase\u0022:\u0022https:\/\/github.com\/sanskrit\/sanskrit.github.io\/edit\/master\/content\/\u0022,\u0022mainSections\u0022:[\u0022people\u0022],\u0022mainsections\u0022:[\u0022people\u0022]}");
+    let siteParams = JSON.parse("{\u0022contactlink\u0022:\u0022https:\/\/github.com\/sanskrit\/sanskrit.github.io\/issues\/new\u0022,\u0022disqusshortcode\u0022:\u0022sanskrit-projects-site\u0022,\u0022env\u0022:\u0022production\u0022,\u0022githubeditmepathbase\u0022:\u0022https:\/\/github.com\/sanskrit\/sanskrit.github.io\/edit\/master\/content\/\u0022,\u0022mainSections\u0022:[\u0022groups\u0022],\u0022mainsections\u0022:[\u0022groups\u0022]}");
     let pageDefaultsList = JSON.parse("[{\u0022scope\u0022:{\u0022pathPrefix\u0022:\u0022\u0022},\u0022values\u0022:{\u0022comments\u0022:true,\u0022layout\u0022:\u0022page\u0022,\u0022search\u0022:true,\u0022sidebar\u0022:\u0022home_sidebar\u0022}},{\u0022scope\u0022:{\u0022pathPrefix\u0022:\u0022groups\/dyuganga\u0022},\u0022values\u0022:{\u0022comments\u0022:true,\u0022layout\u0022:\u0022page\u0022,\u0022search\u0022:true,\u0022sidebar\u0022:\u0022dyuganga_sidebar\u0022}}]");
-    let sidebarsData = JSON.parse("{\u0022dyuganga_sidebar\u0022:{\u0022contents\u0022:[{\u0022url\u0022:\u0022recdir:\/\/groups\/dyuganga\/\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022\/projects\/\u0022},{\u0022title\u0022:\u0022Code\u0022,\u0022url\u0022:\u0022https:\/\/sanskrit-coders.github.io\/\u0022}],\u0022title\u0022:\u0022Projects\u0022}],\u0022title\u0022:\u0022Parts\u0022},\u0022home_sidebar\u0022:{\u0022contents\u0022:[{\u0022title\u0022:\u0022Home - Intro\u0022,\u0022url\u0022:\u0022\/\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022recdir:\/\/projects\/\u0022},{\u0022title\u0022:\u0022Blog\u0022,\u0022url\u0022:\u0022\/assets\/blog\/index.html\u0022}],\u0022title\u0022:\u0022Projects\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022recdir:\/\/groups\/\u0022}],\u0022title\u0022:\u0022यूथाः\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022recdir:\/\/people\/\u0022}],\u0022title\u0022:\u0022जनाः\u0022}],\u0022title\u0022:\u0022Parts\u0022}}");
+    let sidebarsData = JSON.parse("{\u0022dyuganga_sidebar\u0022:{\u0022contents\u0022:[{\u0022url\u0022:\u0022recdir:\/\/groups\/dyuganga\/\u0022},{\u0022title\u0022:\u0022Code\u0022,\u0022url\u0022:\u0022https:\/\/sanskrit-coders.github.io\/\u0022}],\u0022title\u0022:\u0022Parts\u0022},\u0022home_sidebar\u0022:{\u0022contents\u0022:[{\u0022title\u0022:\u0022Home - Intro\u0022,\u0022url\u0022:\u0022\/\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022recdir:\/\/projects\/\u0022},{\u0022title\u0022:\u0022Blog\u0022,\u0022url\u0022:\u0022\/assets\/blog\/index.html\u0022}],\u0022title\u0022:\u0022Projects\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022recdir:\/\/groups\/\u0022}],\u0022title\u0022:\u0022यूथाः\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022recdir:\/\/people\/\u0022}],\u0022title\u0022:\u0022जनाः\u0022}],\u0022title\u0022:\u0022Parts\u0022}}");
     let autocompletePageUrl = "\/data\/pages.tsv";
     
     var pageRelUrlTree = {};
@@ -348,6 +348,31 @@
 
 <aside class="card border" id="section-tree-item-">
     <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/">&#43;Projects उद्यमाः </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>tags: [getting_started]</li>
+        
+        <li>title: &#43;Projects उद्यमाः</li>
+        
+    </nav>
+</aside>
+
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
         <a href="https://sanskrit.github.io/groups/dyuganga/internal/">&#43;आन्तरिकम् </a>
         <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
     </div>
@@ -438,6 +463,1210 @@
             
             
             
+            
+            <li>
+                
+<ul>
+    <li><input type="checkbox" id="section-tree-item-&#43;Projects उद्यमाः" checked="checked" /><label for="section-tree-item-&#43;Projects उद्यमाः">&#43;Projects उद्यमाः</label>
+        <ul>
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/">&#43;Projects उद्यमाः </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>tags: [getting_started]</li>
+        
+        <li>title: &#43;Projects उद्यमाः</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/audio/">&#43;Audio </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>tags: [getting_started]</li>
+        
+        <li>title: &#43;Audio</li>
+        
+    </nav>
+</aside>
+
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/data/">&#43;Data curation </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: &#43;Data curation</li>
+        
+    </nav>
+</aside>
+
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/image/">&#43;Visual दृश्यानि </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: &#43;Visual दृश्यानि</li>
+        
+    </nav>
+</aside>
+
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/schools/">&#43;शालाः Schools </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>summary: Welcome page.</li>
+        
+        <li>tags: [getting_started]</li>
+        
+        <li>title: &#43;शालाः Schools</li>
+        
+    </nav>
+</aside>
+
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/text/">Texts </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: Texts</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            <li>
+                
+<ul>
+    <li><input type="checkbox" id="section-tree-item-&#43;Audio" checked="checked" /><label for="section-tree-item-&#43;Audio">&#43;Audio</label>
+        <ul>
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/audio/">&#43;Audio </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>tags: [getting_started]</li>
+        
+        <li>title: &#43;Audio</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/audio/kannada-audio/">&#43;Kannada audio </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>tags: [getting_started]</li>
+        
+        <li>title: &#43;Kannada audio</li>
+        
+    </nav>
+</aside>
+
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/audio/mbh-audio/">&#43;Mahabharata audio महाभारत-ध्वनि-प्राप्तिः </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>summary: Welcome page.</li>
+        
+        <li>tags: [getting_started]</li>
+        
+        <li>title: &#43;Mahabharata audio महाभारत-ध्वनि-प्राप्तिः</li>
+        
+    </nav>
+</aside>
+
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/audio/ramayana-audio/">&#43;Ramayana audio </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>summary: Welcome page.</li>
+        
+        <li>tags: [getting_started]</li>
+        
+        <li>title: &#43;Ramayana audio</li>
+        
+    </nav>
+</aside>
+
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/audio/veda-audio/">&#43;Veda audio </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: &#43;Veda audio</li>
+        
+    </nav>
+</aside>
+
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/audio/kAvya-audio/">&#43;काव्यम् </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>summary: Welcome page.</li>
+        
+        <li>tags: [getting_started]</li>
+        
+        <li>title: &#43;काव्यम्</li>
+        
+    </nav>
+</aside>
+
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/audio/tips/">शिक्षा - उच्चारणे ध्वनिरक्षणे च सूचनाः Reciting and Recording- tips </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: शिक्षा - उच्चारणे ध्वनिरक्षणे च सूचनाः Reciting and Recording- tips</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            <li>
+                
+<ul>
+    <li><input type="checkbox" id="section-tree-item-&#43;Kannada audio" checked="checked" /><label for="section-tree-item-&#43;Kannada audio">&#43;Kannada audio</label>
+        <ul>
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/audio/kannada-audio/">&#43;Kannada audio </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>tags: [getting_started]</li>
+        
+        <li>title: &#43;Kannada audio</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            
+            
+            
+        </ul>
+    </li>
+</ul>
+
+            </li>
+            
+            <li>
+                
+<ul>
+    <li><input type="checkbox" id="section-tree-item-&#43;Mahabharata audio महाभारत-ध्वनि-प्राप्तिः" checked="checked" /><label for="section-tree-item-&#43;Mahabharata audio महाभारत-ध्वनि-प्राप्तिः">&#43;Mahabharata audio महाभारत-ध्वनि-प्राप्तिः</label>
+        <ul>
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/audio/mbh-audio/">&#43;Mahabharata audio महाभारत-ध्वनि-प्राप्तिः </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>summary: Welcome page.</li>
+        
+        <li>tags: [getting_started]</li>
+        
+        <li>title: &#43;Mahabharata audio महाभारत-ध्वनि-प्राप्तिः</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/audio/mbh-audio/how/">Mahabharata audio project - How? महाभारत-ध्वनि-प्राप्तिः </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>sidebar: home_sidebar</li>
+        
+        <li>summary: How?</li>
+        
+        <li>tags: [getting_started]</li>
+        
+        <li>title: Mahabharata audio project - How? महाभारत-ध्वनि-प्राप्तिः</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+        </ul>
+    </li>
+</ul>
+
+            </li>
+            
+            <li>
+                
+<ul>
+    <li><input type="checkbox" id="section-tree-item-&#43;Ramayana audio" checked="checked" /><label for="section-tree-item-&#43;Ramayana audio">&#43;Ramayana audio</label>
+        <ul>
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/audio/ramayana-audio/">&#43;Ramayana audio </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>summary: Welcome page.</li>
+        
+        <li>tags: [getting_started]</li>
+        
+        <li>title: &#43;Ramayana audio</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            
+            
+            
+        </ul>
+    </li>
+</ul>
+
+            </li>
+            
+            <li>
+                
+<ul>
+    <li><input type="checkbox" id="section-tree-item-&#43;Veda audio" checked="checked" /><label for="section-tree-item-&#43;Veda audio">&#43;Veda audio</label>
+        <ul>
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/audio/veda-audio/">&#43;Veda audio </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: &#43;Veda audio</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            
+            
+            
+        </ul>
+    </li>
+</ul>
+
+            </li>
+            
+            <li>
+                
+<ul>
+    <li><input type="checkbox" id="section-tree-item-&#43;काव्यम्" checked="checked" /><label for="section-tree-item-&#43;काव्यम्">&#43;काव्यम्</label>
+        <ul>
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/audio/kAvya-audio/">&#43;काव्यम् </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>summary: Welcome page.</li>
+        
+        <li>tags: [getting_started]</li>
+        
+        <li>title: &#43;काव्यम्</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            
+            
+            
+        </ul>
+    </li>
+</ul>
+
+            </li>
+            
+        </ul>
+    </li>
+</ul>
+
+            </li>
+            
+            <li>
+                
+<ul>
+    <li><input type="checkbox" id="section-tree-item-&#43;Data curation" checked="checked" /><label for="section-tree-item-&#43;Data curation">&#43;Data curation</label>
+        <ul>
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/data/">&#43;Data curation </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: &#43;Data curation</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/data/genetic/">&#43;Genetic projects </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: &#43;Genetic projects</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            <li>
+                
+<ul>
+    <li><input type="checkbox" id="section-tree-item-&#43;Genetic projects" checked="checked" /><label for="section-tree-item-&#43;Genetic projects">&#43;Genetic projects</label>
+        <ul>
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/data/genetic/">&#43;Genetic projects </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: &#43;Genetic projects</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/data/genetic/v1-gotra-haplogroup/">V1 Gotra-haplogroup correlation </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: V1 Gotra-haplogroup correlation</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            <li>
+                
+<ul>
+    <li><input type="checkbox" id="section-tree-item-V1 Gotra-haplogroup correlation" checked="checked" /><label for="section-tree-item-V1 Gotra-haplogroup correlation">V1 Gotra-haplogroup correlation</label>
+        <ul>
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/data/genetic/v1-gotra-haplogroup/">V1 Gotra-haplogroup correlation </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: V1 Gotra-haplogroup correlation</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            
+            
+            
+        </ul>
+    </li>
+</ul>
+
+            </li>
+            
+        </ul>
+    </li>
+</ul>
+
+            </li>
+            
+        </ul>
+    </li>
+</ul>
+
+            </li>
+            
+            <li>
+                
+<ul>
+    <li><input type="checkbox" id="section-tree-item-&#43;Visual दृश्यानि" checked="checked" /><label for="section-tree-item-&#43;Visual दृश्यानि">&#43;Visual दृश्यानि</label>
+        <ul>
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/image/">&#43;Visual दृश्यानि </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: &#43;Visual दृश्यानि</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/image/chitraveda/">&#43;चित्रवेदाः chitravedAH </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: &#43;चित्रवेदाः chitravedAH</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            <li>
+                
+<ul>
+    <li><input type="checkbox" id="section-tree-item-&#43;चित्रवेदाः chitravedAH" checked="checked" /><label for="section-tree-item-&#43;चित्रवेदाः chitravedAH">&#43;चित्रवेदाः chitravedAH</label>
+        <ul>
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/image/chitraveda/">&#43;चित्रवेदाः chitravedAH </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: &#43;चित्रवेदाः chitravedAH</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            
+            
+            
+        </ul>
+    </li>
+</ul>
+
+            </li>
+            
+        </ul>
+    </li>
+</ul>
+
+            </li>
+            
+            <li>
+                
+<ul>
+    <li><input type="checkbox" id="section-tree-item-&#43;शालाः Schools" checked="checked" /><label for="section-tree-item-&#43;शालाः Schools">&#43;शालाः Schools</label>
+        <ul>
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/schools/">&#43;शालाः Schools </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>summary: Welcome page.</li>
+        
+        <li>tags: [getting_started]</li>
+        
+        <li>title: &#43;शालाः Schools</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/schools/bay-area-sanskrit-school-dream/">संस्कृतशाला-प्रस्तावः </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: संस्कृतशाला-प्रस्तावः</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+        </ul>
+    </li>
+</ul>
+
+            </li>
+            
+            <li>
+                
+<ul>
+    <li><input type="checkbox" id="section-tree-item-Texts" checked="checked" /><label for="section-tree-item-Texts">Texts</label>
+        <ul>
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/text/">Texts </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: Texts</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/text/proofreading/">पाठशोधनम् </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: पाठशोधनम्</li>
+        
+        <li>unicode_script: devanagari</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            <li>
+                
+<ul>
+    <li><input type="checkbox" id="section-tree-item-पाठशोधनम्" checked="checked" /><label for="section-tree-item-पाठशोधनम्">पाठशोधनम्</label>
+        <ul>
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/text/proofreading/">पाठशोधनम् </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: पाठशोधनम्</li>
+        
+        <li>unicode_script: devanagari</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/text/proofreading/completed/">&#43;Completed </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: &#43;Completed</li>
+        
+        <li>unicode_script: devanagari</li>
+        
+    </nav>
+</aside>
+
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/text/proofreading/kRdanta-dict/">kRdanta-rUpa-mAla lookup </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: kRdanta-rUpa-mAla lookup</li>
+        
+    </nav>
+</aside>
+
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/text/proofreading/mbh-gItA-press_present-with-audio/">mahAbhArata gItA press - present with audio </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: mahAbhArata gItA press - present with audio</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            <li>
+                
+<ul>
+    <li><input type="checkbox" id="section-tree-item-&#43;Completed" checked="checked" /><label for="section-tree-item-&#43;Completed">&#43;Completed</label>
+        <ul>
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/text/proofreading/completed/">&#43;Completed </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: &#43;Completed</li>
+        
+        <li>unicode_script: devanagari</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/text/proofreading/completed/Apastamba-gRhya-sUtra-commentaries/">Apastamba gRhya sUtra commentaries </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: Apastamba gRhya sUtra commentaries</li>
+        
+    </nav>
+</aside>
+
+            
+            
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit.github.io/groups/dyuganga/projects/text/proofreading/completed/tulasI-kosha/">तिलसी-कोश-शोधन-क्रिया </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: तिलसी-कोश-शोधन-क्रिया</li>
+        
+        <li>unicode_script: devanagari</li>
+        
+    </nav>
+</aside>
+
+            
+            
+            
+            
+        </ul>
+    </li>
+</ul>
+
+            </li>
+            
+        </ul>
+    </li>
+</ul>
+
+            </li>
+            
+        </ul>
+    </li>
+</ul>
+
+            </li>
+            
+        </ul>
+    </li>
+</ul>
+
+            </li>
             
             <li>
                 
@@ -815,7 +2044,7 @@
     </a>
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
-      Built on 2021 Apr 4 04:23:01 UTC. (<a href="http://google.com/search?q=04%3a23%3a01%20UTC to IST">IST</a>)
+      Built on 2021 Apr 21 03:57:24 UTC. (<a href="http://google.com/search?q=03%3a57%3a24%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>

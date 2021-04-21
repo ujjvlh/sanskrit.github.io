@@ -21,6 +21,16 @@ Details at https://creativecommons.org/licenses/by/4.0/</description>
     </item>
     
     <item>
+      <title>Apastamba gRhya sUtra commentaries</title>
+      <link>https://sanskrit.github.io/groups/dyuganga/projects/text/proofreading/completed/Apastamba-gRhya-sUtra-commentaries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanskrit.github.io/groups/dyuganga/projects/text/proofreading/completed/Apastamba-gRhya-sUtra-commentaries/</guid>
+      <description>Status Completed, with partial support from shrI harikiraN of Indic academy.
+Proposed work I wanted to get typed AnAkulA and tAtparyadarshanI commentaries to Apastamba gRhyasUtra to an error-free state. The pdf is available on archive.org. Well, it was typed up by someone a long time ago (and I had published it in wikisource a long time ago), but that version has many errors and that makes it irritating to read. In the end, it will be presented like this: https://vvasuki.</description>
+    </item>
+    
+    <item>
       <title>Contact सम्पर्कः</title>
       <link>https://sanskrit.github.io/groups/dyuganga/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -39,12 +49,32 @@ Details at https://creativecommons.org/licenses/by/4.0/</description>
     </item>
     
     <item>
-      <title>Mahabharata audio project - How? महाभारत-ध्वनि-प्राप्तिः</title>
-      <link>https://sanskrit.github.io/projects/audio/mbh-audio/how/</link>
+      <title>kRdanta-rUpa-mAla lookup</title>
+      <link>https://sanskrit.github.io/groups/dyuganga/projects/text/proofreading/kRdanta-dict/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sanskrit.github.io/projects/audio/mbh-audio/how/</guid>
+      <guid>https://sanskrit.github.io/groups/dyuganga/projects/text/proofreading/kRdanta-dict/</guid>
+      <description>Goal Produce data for digital dictionaries to easily lookup major kRdanta forms of all verb-roots using the kRdanta-rUpamAla data (already digitized, needs to fleshed out and filled up as described below). Essentially, we would need to get a learned vyAkaraNa vidvAn to fill up this spreadsheet by looking at the original text.
+Importance Sanskrit is the Hindu liturgical language. Often times, a scholar or student needs to look up correct forms arising out of verbal roots to correctly understand (or compose) sanskrit text.</description>
+    </item>
+    
+    <item>
+      <title>Mahabharata audio project - How? महाभारत-ध्वनि-प्राप्तिः</title>
+      <link>https://sanskrit.github.io/groups/dyuganga/projects/audio/mbh-audio/how/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanskrit.github.io/groups/dyuganga/projects/audio/mbh-audio/how/</guid>
       <description>How?</description>
+    </item>
+    
+    <item>
+      <title>mahAbhArata gItA press - present with audio</title>
+      <link>https://sanskrit.github.io/groups/dyuganga/projects/text/proofreading/mbh-gItA-press_present-with-audio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanskrit.github.io/groups/dyuganga/projects/text/proofreading/mbh-gItA-press_present-with-audio/</guid>
+      <description>Goal Digitize and present the text of the mahAbhArata edition so laboriously and wonderfully recorded as part of this project - together with the audio. The text will (just like our audio files) be made available for free in markdown format - anyone can copy and reuse. Examples of such text with audio presentations:
+ rAmAyaNa https://vvasuki.github.io/purANam/rAmAyaNam/AndhrapAThaH/1_bAlakANDam/01-kathAmukham/001_sanxepa/ raghuvaMsha https://vvasuki.github.io/kAvyam/TIkA/padyam/kAlidAsaH/raghuvaMsham/01/ kumArasambhava https://vvasuki.github.io/kAvyam/TIkA/padyam/kAlidAsaH/kumArasambhavam/02/ durgA saptashatI https://vvasuki.github.io/purANam/durgA-saptashatI/01-prathama-charitam/ rAmacharitamAnasa https://vvasuki.github.io/kAvyam/TIkA/padyam/purANam/rAmacharitamAnasa-TIkA/02_ayodhyAkANDa/ nArAyaNIyam https://vvasuki.github.io/kAvyam/TIkA/padyam/purANam/nArAyaNIyam/003/ several sAmans etc.</description>
     </item>
     
     <item>
@@ -167,11 +197,12 @@ Initial setup Search depends on additional output content type of JSON in config
     
     <item>
       <title>तिलसी-कोश-शोधन-क्रिया</title>
-      <link>https://sanskrit.github.io/projects/text/proofreading/tulasI-kosha/</link>
+      <link>https://sanskrit.github.io/groups/dyuganga/projects/text/proofreading/completed/tulasI-kosha/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sanskrit.github.io/projects/text/proofreading/tulasI-kosha/</guid>
-      <description>नियन्ता  विश्वास - 95912 68506 (telegram/ whatsapp)। gmail-मेँ - vishvas.vasuki ।  अपेक्षा और क्रम  तुलसीशब्दकोश के निर्वाच्य-शब्दोँ का संस्करण। (शब्दनिर्वचन का संस्करण अनपेक्षित है। पर प्रतिपङ्क्ति एक शब्द और एक निर्वचन हि हो - ऐसा प्रयास हो।)  OCR/यन्त्र-परिष्कृत पाठ - यहाँ । pdf/चित्रीकृत-ग्रन्थ - यहाँ ।   इन चित्रोँ को देखिए - १, २। आसक्त जन नियन्ता का सम्पर्क करेँ। वह आप के कार्यखण्ड को निश्चित करेँगे। प्रश्न हो तो नियन्ता को पूछिए।    दक्षिणा का मान  प्रतिपृष्ठ २ रुपय। समर्पित पाठ मेँ त्रुटि होने पर ०.</description>
+      <guid>https://sanskrit.github.io/groups/dyuganga/projects/text/proofreading/completed/tulasI-kosha/</guid>
+      <description>Status Completed in 2020.
+नियन्ता  विश्वास - 95912 68506 (telegram/ whatsapp)। gmail-मेँ - vishvas.vasuki ।  अपेक्षा और क्रम  तुलसीशब्दकोश के निर्वाच्य-शब्दोँ का संस्करण। (शब्दनिर्वचन का संस्करण अनपेक्षित है। पर प्रतिपङ्क्ति एक शब्द और एक निर्वचन हि हो - ऐसा प्रयास हो।)  OCR/यन्त्र-परिष्कृत पाठ - यहाँ । pdf/चित्रीकृत-ग्रन्थ - यहाँ ।   इन चित्रोँ को देखिए - १, २। आसक्त जन नियन्ता का सम्पर्क करेँ। वह आप के कार्यखण्ड को निश्चित करेँगे। प्रश्न हो तो नियन्ता को पूछिए।    दक्षिणा का मान  प्रतिपृष्ठ २ रुपय। समर्पित पाठ मेँ त्रुटि होने पर ०.</description>
     </item>
     
     <item>
@@ -333,10 +364,10 @@ Initial setup Search depends on additional output content type of JSON in config
     
     <item>
       <title>शिक्षा - उच्चारणे ध्वनिरक्षणे च सूचनाः Reciting and Recording- tips</title>
-      <link>https://sanskrit.github.io/projects/audio/tips/</link>
+      <link>https://sanskrit.github.io/groups/dyuganga/projects/audio/tips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sanskrit.github.io/projects/audio/tips/</guid>
+      <guid>https://sanskrit.github.io/groups/dyuganga/projects/audio/tips/</guid>
       <description>Short url : https://rebrand.ly/mbh-recording-standards
 Good pronunciation: Most important varNa-level pronunciation (English)  Clearly distinguish न vs ण, स vs श vs ष, अल्पप्राण (त) vs महाप्राण (थ), थ vs ध, आ vs अ (esp in the end, like in उवाच), etc.. But don&amp;rsquo;t overcompensate! Overemphasis on mahAprANa-s etc.. harms the natural melody. Don&amp;rsquo;t elongate final vyanjana-s. &amp;ldquo;इदम् अन्यत्तु भगवन्&amp;rdquo; इत्यत्रान्तिमनकारो &amp;ldquo;भगवन्न्अ(३)&amp;rdquo; इतिवन् न श्रूयेत। There is a pervasive practice of Visarga pronunciation in Karnataka state, as like in the place of pronunciation of the words “पराक्रमः” and “विक्रमः”, it sounds like “पराक्रमहा” “विक्रमहा” which gives opposite meaning (like one who destroyes valour is “पराक्रमहा” and one who destroys the courage is “विक्रमहा”) to the listeners.</description>
     </item>
@@ -389,10 +420,10 @@ Good pronunciation: Most important varNa-level pronunciation (English)  Clearly 
     
     <item>
       <title>संस्कृतशाला-प्रस्तावः</title>
-      <link>https://sanskrit.github.io/projects/schools/bay-area-sanskrit-school-dream/</link>
+      <link>https://sanskrit.github.io/groups/dyuganga/projects/schools/bay-area-sanskrit-school-dream/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sanskrit.github.io/projects/schools/bay-area-sanskrit-school-dream/</guid>
+      <guid>https://sanskrit.github.io/groups/dyuganga/projects/schools/bay-area-sanskrit-school-dream/</guid>
       <description>Archived project! Not being pursued!  Motivation We have all heard of (and some of us have visited) schools where:
  students are instructed in samskritam and hindu arts besides regular subjects like science, mathematics, english, history, social science etc..  Often, the medium of instruction is bilingual - Sanskrit for some topics (esp. humanities), English for others.
 Benefits of such schools are as follows:
